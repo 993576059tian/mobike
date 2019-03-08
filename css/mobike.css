@@ -1,0 +1,300 @@
+.headerTop{
+    width: 100%;
+    background:transparent;
+    z-index: 100000;
+    padding: 14.7px 0;
+    position: relative;
+}
+.main{
+    max-width: 1080px;
+    min-width: 640px;
+    margin: 0 auto;
+}
+.headerTop h1{
+    width: 675px;
+    height: 40px;  
+    padding: 8px 20px;
+}
+.headerTop h1 img{
+    width: 100px;
+    height: 37px;
+}
+.headerTop .nav{
+    width: 366px;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    top: 30px;
+    right: 0; 
+}
+.headerTop .nav li{
+    float: left;
+}
+.headerTop .nav li a{
+    padding: 8px 20px;
+    color: #fff;
+}
+.banner{
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    
+}
+.banner ul{
+    height: 830px;
+    width: 400%;
+}
+.banner ul li:nth-child(1){
+    background: url(../img/hero-bg-7.jpg) no-repeat;
+    background-size: cover;
+    background-position: 54% 66%;
+    width: 25%;
+    height: 100%;
+}
+.banner ul li:nth-child(2){
+    background: url(../img/hero-bg-5.jpg) no-repeat;
+    background-size: cover;
+    background-position: 57% 61%;
+    width: 25%;
+    height: 100%;
+}
+.banner ul li:nth-child(3){
+    background: url(../img/hero-bg-8.jpg) no-repeat;
+    background-size:cover;
+    background-position: center center;
+    width: 25%;
+    height: 100%;
+}
+.banner ul li:nth-child(4){
+    background: url(../img/promo-01.jpg) no-repeat;
+    background-size:cover;
+    background-position: center center;
+    width: 25%;
+    height: 100%;
+}
+.banner ul li{
+    float: left;
+}
+.matter{
+    height: 515.2px;
+    width: 1080px;
+    padding: 97px 20px;
+}
+.matter h3{
+    font-size: 67px;
+    color: #fff;
+    margin: 150px 0 20px 2px;
+}
+.matter a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, .6);
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+.headerBottom{
+    background: rgba(59, 54, 48, 0.4);
+    width: 100%;
+    height:36px;
+    line-height: 36px;
+}
+.headerBottom a{
+    color: #fff;
+    font-size: 16px;
+}
+.headerBottom a span{
+    font-size: 12px;
+    padding: 0 8px;
+    background:linear-gradient(#ec614f , #ff2e2e);
+    border-radius: 3px;
+}
+.flow{
+    width: 100%;
+    height: 262px;
+}
+.flow li{
+    height: 260px;
+    line-height: 130px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.flow li:nth-child(1){
+    background: url(../img/promo-01.jpg) no-repeat;
+    background-size: cover;
+}
+.flow li:nth-child(2){
+    background: url(../img/promo-02.jpg) no-repeat;
+    background-size: cover;
+}
+.flow li:nth-child(3){
+    background: url(../img/promo-03.jpg) no-repeat;
+    background-size: cover;
+}
+.flow li:nth-child(4){
+    background: url(../img/promo-04.jpg) no-repeat;
+    background-size: cover;
+    border-right: none;
+}
+.flow li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+.content{
+    width: 100%;
+    height: 142px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.wrap .activity{
+    width: 33.3%;
+    padding: 45px 0;
+    float: left;
+}
+.wrap .activity .icon{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.wrap .activity:nth-of-type(1) .icon{
+    background: url(../img/icon-wechat.png) no-repeat;
+    background-size: 50px 50px;
+}
+.wrap .activity:nth-of-type(2) .icon{
+    background: url(../img/icon-rp.png) no-repeat;
+    background-size: 50px 50px;
+}
+.wrap .activity:nth-of-type(3) .icon{
+    background: url(../img/icon-credit.png) no-repeat;
+    background-size: 50px 50px;
+}
+.liknks{
+    padding: 0 20px;
+    width: 1040px;
+    height: 245px;
+}
+.linksTop{
+    width: 1040px;
+    height: 155px;
+    padding: 45px 0;
+}
+.footer .main .info li{
+    width: 401px;
+    height: 36px;
+}
+.footer .main .info li:nth-child(1){
+    background: url(../img/logo-text.svg)no-repeat;
+    background-size: 160px 36px; 
+    margin-bottom: 10px;
+}
+.info a{
+    color: #000;
+}
+.wrap .activity h4{
+    font-weight: 400
+}
+.footer{
+    width: 100%;
+    height: 245px;
+}
+.links{
+    padding: 45px 0;
+}
+.info{
+    width: 402px;
+    height: 155px;
+    float: left;
+}
+.footerRight{
+    width: 598px;
+    height: 155px;
+    float: right;
+}
+.product,.life,.topic,.social{
+    float: left;
+}
+.footerRight h3{
+    margin-bottom: 10px;
+}
+.footerRight a{
+    line-height: 2;
+    color: #000;
+    font-weight: 200;
+}
+.life{
+    margin-left: 110px;
+}
+.topic{
+    margin-left: 110px;
+}
+.social{
+    margin-left: 110px;
+}
+.pagesLast{
+    width: 100%;
+    border-top: 1px solid #eee;
+}
+.filing{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 45px 20px;
+    box-sizing: border-box;
+}
+.filing-left{
+    height: 54px;
+    float: left;
+    font-size: 12px;
+    color: #aaa;
+}
+.filing-left i{
+    display: inline-block;
+    background: url(../img/beian-icon.png)no-repeat ;
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px
+}
+.filing img{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+.footerRight a:hover{
+    color: red;
+}
+@media all and (max-width:1079px){
+    .headerTop .nav{
+        display: none;
+    }
+    .banner ul{
+        height: 650px;
+    }
+    .matter{
+        padding: 6px 0;
+    }
+    .matter h3{
+        font-size: 50px;
+    }
+    .matter a{
+        font-size: 20px;
+    }
+    .flow li{
+        width: 50%;
+    }
+    .flow li:nth-child(2){
+       border-right: none;
+    }
+}
+@media all and (max-width:639px){
+    .flow li{
+        width: 100%;
+}
